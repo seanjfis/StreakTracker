@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Streak Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Streak Tracker is a personal project designed to help you track and maintain streaks for various activities. Whether it's for personal development, habit formation, or productivity, this tool allows you to manage and visualize your streaks effectively.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add Activities**: Easily add new activities to track.
+- **Update Streaks**: Increment streaks and log daily contributions.
+- **Archive Activities**: Archive and unarchive activities as needed to return to when you are ready.
+- **View Details**: View detailed information about each activity, including contributions and longest recorded streak for a given activity.
+- **Complete All**: Mark all activities as completed for the day.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Using GitHub Desktop
 
-### `npm test`
+1. **Clone the Repository**:
+   - Open GitHub Desktop.
+   - Go to "File" -> "Clone repository."
+   - Select the repository URL or path and click "Clone."
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**:
+   - Navigate to the project directory using your terminal or command prompt.
+   - Run `npm install` to install the necessary dependencies.
 
-### `npm run build`
+3. **Start the Application**:
+   - In the terminal, run `npm start` to start the development server.
+   - Open your browser and go to `http://localhost:3000` to view the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Adding Activities**:
+   - Use the form provided to add new activities and set initial streaks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Updating Streaks**:
+   - Click on an activity to update its streak. You will be prompted to add your daily contributions if required. 
 
-### `npm run eject`
+3. **Archiving Activities**:
+   - Archive or unarchive activities by using the corresponding buttons in the activity list.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Viewing Details**:
+   - Click on an activity to view detailed information, including a daily contribution log and longest recorded streaks.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any questions or feedback, please contact [Sean Fiscus](mailto:seanjfis@gmail.com).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Thank you for checking out Streak Tracker!
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
