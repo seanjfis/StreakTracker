@@ -1,0 +1,43 @@
+/* Details View Styles */
+.details-view ul {
+    list-style-type: disc; /* Changed from none to disc for better readability */
+    padding-left: 20px;    /* Added padding to indent the list items */
+    text-align: left;      /* Ensure the log is left-aligned */
+}
+
+.details-view li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.details-view li strong {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.details-view li span {
+    word-wrap: break-word;
+}
+
+/* Text Alignment for General View */
+.container p {
+    text-align: left;
+}
+
+.details-view {
+    padding: 20px;
+    text-align: left;
+}
+
+.details-view h1 {
+    text-align: center;
+}
+
+.details-view p {
+    margin: 10px 0;
+}
+
+.details-view .log {
+    margin-top: 20px;
+}

@@ -1,0 +1,43 @@
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #fafafa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li:hover {
+    transform: scale(1.03); /* Enlarge button on hover */
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
+    margin-left: 10px;
+    flex: 0 0 auto;
+}
+
+li.updated-today {
+    background: #39FF14; /* Neon green background */
+}
+
+/* Text Alignment for General View */
+.container ul {
+    text-align: left;
+}
+
+li.archived {
+    background: #d3d3d3; /* Gray background for archived activities */
+    color: #666; /* Dark gray text for contrast */
+}
