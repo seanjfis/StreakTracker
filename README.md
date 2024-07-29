@@ -45,6 +45,8 @@ Streak Tracker is a personal project designed to help you track and maintain str
 
 ![Activities View](images/im1.png)
 
+![Log View](images/im2.png)
+
 
 ## Contributing
 
