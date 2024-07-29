@@ -43,6 +43,9 @@ Streak Tracker is a personal project designed to help you track and maintain str
 4. **Viewing Details**:
    - Click on an activity to view detailed information, including a daily contribution log and longest recorded streaks.
 
+![Activities View](images/im1.png)
+
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
